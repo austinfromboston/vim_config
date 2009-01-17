@@ -1,4 +1,4 @@
-colors vividchalk
+" colors vividchalk
 syntax on
 set number
 
@@ -14,7 +14,7 @@ set expandtab
 set backspace=start,eol,indent
 
 " searching
-set hlsearch
+" set hlsearch
 set incsearch
 
 " advice from sjbach.com
@@ -37,7 +37,7 @@ set ruler
 filetype on
 filetype plugin on   
 filetype indent on
-set listchars=tab:>-,trail:·,eol:$
+set listchars=tab:>-,trail:-,eol:$
 nmap <silent> <leader>s :set nolist!<CR>   
 
 " fuzzy finder
